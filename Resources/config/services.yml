@@ -1,0 +1,7 @@
+services:
+    data_collector.EzLegacydata:
+        class: EzLegacyProfilerBundle\DataCollector\EzLegacyDataCollector
+        public: false
+        arguments: ['@ezpublish_legacy.kernel']
+        tags:
+            - { name: data_collector, template: "EzLegacyProfilerBundle:Collector:ezlegacydata", id: "ezlegacydata" }
