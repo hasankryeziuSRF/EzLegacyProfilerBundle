@@ -1,5 +1,5 @@
 <?php
-namespace EzLegacyProfilerBundle\DataCollector;
+namespace SrfEzLegacyDebugBundle\DataCollector;
 
 use Symfony\Component\HttpKernel\DataCollector\DataCollector;
 use Symfony\Component\HttpFoundation\Request;
@@ -36,7 +36,6 @@ class EzLegacyDataCollector extends DataCollector
         return $this->data['ezdata'];
     }
 
-
     public function ezDebugInfo()
     {
         $debugOutput = '';
@@ -56,7 +55,6 @@ class EzLegacyDataCollector extends DataCollector
 
         return $debugOutput;
     }
-
 
     public function getName()
     {

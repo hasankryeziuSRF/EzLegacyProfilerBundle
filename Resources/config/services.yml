@@ -1,7 +1,7 @@
 services:
     data_collector.EzLegacydata:
-        class: EzLegacyProfilerBundle\DataCollector\EzLegacyDataCollector
+        class: SrfEzLegacyDebugBundle\DataCollector\EzLegacyDataCollector
         public: false
         arguments: ['@ezpublish_legacy.kernel']
         tags:
-            - { name: data_collector, template: "EzLegacyProfilerBundle:Collector:ezlegacydata", id: "ezlegacydata" }
+            - { name: data_collector, template: "SrfEzLegacyDebugBundle:Collector:ezlegacydata", id: "ezlegacydata" }

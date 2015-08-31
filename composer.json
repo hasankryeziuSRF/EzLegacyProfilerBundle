@@ -1,0 +1,5 @@
+{
+  "name": "SRF/EzLegacyDebugBundle",
+  "description": "EzPublish 5 Show Debug Infortations from Legacy Code in the Web-Profiler",
+  "license": "MIT",
+}

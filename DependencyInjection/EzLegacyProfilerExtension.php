@@ -1,6 +1,6 @@
 <?php
 
-namespace EzLegacyProfilerBundle\DependencyInjection;
+namespace SrfEzLegacyDebugBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
